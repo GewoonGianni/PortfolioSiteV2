@@ -80,4 +80,12 @@ class ArticleController extends Controller
 
         return redirect('/../blog/' . $article -> slug);
     }
+
+    function destroy ($slug) {
+        $article = Article::where('slug', $slug)->first();
+
+        $article->delete();
+
+        return redirect('/../blog');
+    }
 }

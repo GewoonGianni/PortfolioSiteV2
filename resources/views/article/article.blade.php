@@ -10,6 +10,8 @@
         <a href="/blog/{{$article->slug}}/edit">
             <button class="btn btn-outline-dark">edit</button>
         </a>
-        <button class="btn btn-outline-danger">remove</button>
+        <a href="/blog/{{$article->slug}}/remove">
+            <button class="btn btn-outline-danger">remove</button>
+        </a>
     </div>
 @endsection

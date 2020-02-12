@@ -52,7 +52,7 @@
                     <a class="dropdown-item" href="/../dashboard/monitor">Studie Monitor</a>
                     <a class="dropdown-item" href="/../dashboard/link">Studiewijzers</a>
                     <a class="dropdown-item" href="/../dashboard/motivation">Motivatie</a>
-                    <a class="dropdown-item" href="/../dashboard/industry">beroepsbeeld</a>
+                    <a class="dropdown-item" href="/../dashboard/industry">Beroepsbeeld</a>
                 </div>
             </li>
         </ul>

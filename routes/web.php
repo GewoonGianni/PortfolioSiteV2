@@ -15,6 +15,7 @@ Route::get('/', 'pagecontroller@showIndex');
 Route::post('/blog', 'ArticleController@store');
 Route::get('/blog/create', 'ArticleController@create');
 Route::get('/blog/{slug}/edit', 'ArticleController@edit');
+Route::get('/blog/{slug}/remove', 'ArticleController@destroy');
 Route::put('/blog/{slug}', 'ArticleController@update');
 Route::get('/blog/{slug}', 'ArticleController@show');
 Route::get('/blog', 'ArticleController@showAll');
