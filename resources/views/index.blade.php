@@ -15,7 +15,7 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="/../images/pictures/coldkees.png" alt="First slide">
+                <a href="http://coldkees.github.io" target="_blank"><img class="d-block w-100" src="/../images/pictures/coldkees.png" alt="First slide"></a>
             </div>
             <div class="carousel-item">
                 <img class="d-block w-100" src="/../images/pictures/voetbal.png" alt="Second slide">
