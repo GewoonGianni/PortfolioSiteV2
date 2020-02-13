@@ -12,6 +12,6 @@ $factory->define(Article::class, function (Faker $faker) {
         'slug' => $faker->slug,
         'title' => $faker->sentence,
         'excerpt' => $faker->sentence,
-        'body' => $faker->paragraph(3),
+        'body' => $faker->paragraph('3'),
     ];
 });

@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6375d0c8-37fa-4010-84e0-dbe59ce88b85" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/ArticleFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/ArticleFactory.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2020_02_06_101415_articles.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_02_06_101415_articles.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -171,7 +174,7 @@
       <workItem from="1581519654071" duration="404000" />
       <workItem from="1581523911904" duration="233000" />
       <workItem from="1581580311825" duration="147000" />
-      <workItem from="1581585259028" duration="2285000" />
+      <workItem from="1581585259028" duration="4896000" />
     </task>
     <servers />
   </component>
