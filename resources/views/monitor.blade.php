@@ -11,15 +11,23 @@
                 overflow-x: scroll;
             }
         }
+
+        .done{
+            background-color: rgba(56, 193, 114, 0.5);
+        }
+
+        .not-done{
+            background-color: rgba(227, 52, 47, 0.5);
+        }
     </style>
 
     <div class="container-fluid nav-bar-fix scrollable-to-side" style="padding-top: 65px">
         <table class="table">
             <tr>
                 <th>Cursus</th>
+                <th>EC</th>
                 <th>Toets</th>
                 <th>Weging</th>
-                <th>EC</th>
                 <th>Cijfer</th>
             </tr>
             @foreach($courses as $course)
@@ -27,18 +35,18 @@
                     <tr>
                         @endforeach
                         <td rowspan={{count($course->assignments)}}>{{$course->course}}</td>
+                        <td rowspan={{count($course->assignments)}}>{{$course->ec}}</td>
                         @foreach($course->assignments as $assignment)
-                            <td>{{$assignment->assignment}}</td>
+                            <td class="{{$assignment->grade > 5.4 ? 'done' : 'not-done'}}">{{$assignment->assignment}}</td>
                             <td>{{$assignment->weight}}</td>
-                            <td>{{$course->ec}}</td>
                             <td>{{$assignment->grade}}</td>
                     </tr>
                 @endforeach
             @endforeach
         </table>
-
+    </div>
         <!-- TODO: Make dynamic progress bars -->
 
         <!-- TODO: make a "admin" edit screen -->
-    </div>
+
 @endsection
