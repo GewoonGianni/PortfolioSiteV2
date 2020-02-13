@@ -12,11 +12,11 @@
             }
         }
 
-        .done{
+        .done {
             background-color: rgba(56, 193, 114, 0.5);
         }
 
-        .not-done{
+        .not-done {
             background-color: rgba(227, 52, 47, 0.5);
         }
     </style>
@@ -44,10 +44,23 @@
                 @endforeach
             @endforeach
         </table>
-        <a href="/../dashboard/monitor/edit"><button class="btn btn-outline-dark mb-4">Edit</button></a>
-    </div>
-        <!-- TODO: Make dynamic progress bars -->
+        <a href="/../dashboard/monitor/edit">
+            <button class="btn btn-outline-dark mb-4">Edit</button>
+        </a>
 
-        <!-- TODO: make a "admin" edit screen -->
-        <!-- TODO: make a dynamic selection form -->
+        <!-- TODO: Make dynamic progress bars -->
+        <div class="progress mb-4">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 50%;" aria-valuenow="30"
+                 aria-valuemin="0" aria-valuemax="60">50%
+            </div>
+        </div>
+        <div class="progress mb-4">
+            <div class="progress-bar bg-warning" role="progressbar" style="width: 60%" aria-valuenow="30"
+                 aria-valuemin="0" aria-valuemax="45"> 66%
+
+            </div>
+        </div>
+    </div>
+    <!-- TODO: make a "admin" edit screen -->
+    <!-- TODO: make a dynamic selection form -->
 @endsection
