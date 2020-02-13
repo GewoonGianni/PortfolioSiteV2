@@ -19,5 +19,6 @@ Route::get('/blog/{slug}/remove', 'ArticleController@destroy');
 Route::put('/blog/{slug}', 'ArticleController@update');
 Route::get('/blog/{slug}', 'ArticleController@show');
 Route::get('/blog', 'ArticleController@showAll');
+Route::get('/dashboard/monitor', 'pagecontroller@showMonitor');
 Route::get('/dashboard/{page}', 'pagecontroller@show');
 Route::get('/{page}', 'pagecontroller@show');
