@@ -12,7 +12,8 @@
             @csrf
             @method('PUT')
             <label class="label" for="titleInput">Title</label>
-            <input placeholder="Titel" class="form-control @error('title') is-invalid @enderror" id="titleInput" type="text" name="title" value="{{$article -> title}}">
+            <input placeholder="Titel" class="form-control @error('title') is-invalid @enderror" id="titleInput"
+                   type="text" name="title" value="{{$article -> title}}">
             @error('title')
             <span class="text-danger">{{$errors->first('title')}}</span>
             @enderror
@@ -41,9 +42,7 @@
             <span class="text-danger">{{$errors->first('slug')}}</span>
             @enderror
 
-            <br>
-
-            <button type="submit" class="btn btn-outline-dark">Submit</button>
+            <button type="submit" class="btn btn-outline-dark mb-4 mt-4">Submit</button>
         </form>
     </div>
 @endsection

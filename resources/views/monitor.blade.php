@@ -44,9 +44,10 @@
                 @endforeach
             @endforeach
         </table>
+        <a href="/../dashboard/monitor/edit"><button class="btn btn-outline-dark mb-4">Edit</button></a>
     </div>
         <!-- TODO: Make dynamic progress bars -->
 
         <!-- TODO: make a "admin" edit screen -->
-
+        <!-- TODO: make a dynamic selection form -->
 @endsection

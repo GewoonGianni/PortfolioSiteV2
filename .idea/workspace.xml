@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6375d0c8-37fa-4010-84e0-dbe59ce88b85" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/article/articleEdit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/article/articleEdit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/monitor.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/monitor.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +175,8 @@
       <workItem from="1581523911904" duration="233000" />
       <workItem from="1581580311825" duration="147000" />
       <workItem from="1581585259028" duration="13071000" />
-      <workItem from="1581604339405" duration="4677000" />
+      <workItem from="1581604339405" duration="5415000" />
+      <workItem from="1581630748771" duration="1650000" />
     </task>
     <servers />
   </component>
@@ -181,10 +184,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="541" y="216" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581505772199">
+    <state x="541" y="216" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581631205682">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="541" y="216" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1581505772199" />
+    <state x="541" y="216" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1581631205682" />
+    <state x="499" y="168" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1581630984345">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="168" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1581630984345" />
     <state x="405" y="192" key="EditFileWatcherDialog" timestamp="1581445193759">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
