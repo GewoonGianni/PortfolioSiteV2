@@ -5,7 +5,7 @@
 @endsection
 
 @section('content')
-    <div class="container-fluid nav-bar-fix" style="padding-top: 50px;">
+    <div class="container-fluid nav-bar-fix" style="padding-top: 65px;">
         <h2>functies binnen een ICT organisatie</h2>
         <ul>
             <li>Lead developer</li>

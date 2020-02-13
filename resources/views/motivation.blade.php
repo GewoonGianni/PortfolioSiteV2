@@ -5,7 +5,7 @@
 @endsection
 @section('content')
 
-    <div class="container-fluid nav-bar-fix" style="padding-top: 50px;">
+    <div class="container-fluid nav-bar-fix" style="padding-top: 65px;">
 
         <h2>De 4 vormen van motivatie</h2>
         <h3>Intrinsieke motivatie</h3>

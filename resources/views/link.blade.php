@@ -61,7 +61,6 @@
             <div class="col-sm-12 col-md-4 justify-content-center text-center">
                 <a href="https://github.com/HZ-HBO-ICT"
                    target="_blank">
-                    <img
                     <img src="http://pngimg.com/uploads/github/github_PNG20.png" alt="Github logo" width="30%">
                     <p class="text-body">Github van HBO-ICT</p>
                 </a>

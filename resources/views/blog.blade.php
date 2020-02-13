@@ -3,7 +3,7 @@
     Blog
 @endsection
 @section('content')
-    <div class="container-fluid" style="padding-top: 50px; padding-bottom: 20px;">
+    <div class="container-fluid" style="padding-top: 65px; padding-bottom: 20px;">
         <h1>Blog</h1>
         @foreach($articles as $article)
             <a class="text-body" href="/../blog/{{$article->slug}}">

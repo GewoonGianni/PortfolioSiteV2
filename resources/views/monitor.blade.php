@@ -12,7 +12,7 @@
             }
         }
     </style>
-    <div class="container-fluid nav-bar-fix" style="padding-top: 50px">
+    <div class="container-fluid nav-bar-fix" style="padding-top: 65px">
         <!--Table-->
         <div class="text">
             <div class="table scrollable-to-side">

@@ -4,7 +4,7 @@
 @endsection
 
 @section('content')
-    <div class="container-fluid nav-bar-fix" style="padding-top: 50px;">
+    <div class="container-fluid nav-bar-fix" style="padding-top: 65px;">
         <h2>Wie ben ik?</h2>
         <p>Ik ben Gianni Meesters, ik ben geboren op 1 april 2002, en woon in Bergen op Zoom met mijn broer en ouders.
             De foto hierboven is een foto van mij, en mijn vriendin. Ik ben zelf niet zo fotogeniek. </p>
