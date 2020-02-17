@@ -18,7 +18,6 @@ class CreateAssignmentsTable extends Migration
             $table->unsignedBigInteger('course_id');
             $table->string('assignment');
             $table->string('weight', 4);
-            $table->boolean('completion')->default(false);
             $table->float('grade')->default(0);
             $table->timestamps();
 

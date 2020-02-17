@@ -27,10 +27,6 @@ class monitorController extends Controller
         $assignment = Assignment::find(request('courseSelect'));
         $assignment->grade = request('grade');
 
-        if (request('grade') > 5.4) {
-            $assignment->completion = true;
-        }
-
         $assignment->save();
 
         return redirect('/../dashboard/monitor');

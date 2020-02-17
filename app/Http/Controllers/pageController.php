@@ -14,30 +14,16 @@ class pageController extends Controller
         return view('index');
     }
 
-    public function showMonitor()
+    public function showMonitor(Course $course)
     {
         $courses = \DB::table('courses');
         $courses = Course::All();
 
-        $total = 0;
-
-        foreach ($courses as $course) {
-            $checker = true;
-            foreach ($course->assignments as $assignment) {
-                if ($assignment->completion !== 1) {
-                    $checker = 0;
-                }
-            }
-            if($checker == true) {
-                $total += $course->ec;
-            }
-        }
-
-
+        $ec = $course->getAwardedEC($courses);
 
         return view('monitor', [
             'courses' => $courses,
-            'total' => $total,
+            'total' => $ec,
         ]);
     }
 
