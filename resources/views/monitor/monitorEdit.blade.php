@@ -27,6 +27,8 @@
                 <span class="text-danger">{{$errors->first('courseSelect')}}</span>
                 @enderror
 
+                <br>
+
                 <label class="label" for="grade">Cijfer</label>
                 <input placeholder="Cijfer" class="form-control @error('grade') is-invalid @enderror" id="grade" type="number" step="0.1" name="grade" value="{{old('grade')}}">
 
