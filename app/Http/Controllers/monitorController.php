@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use DB;
 use App\Course;
+use App\Assignment;
 
 class monitorController extends Controller
 {
@@ -14,5 +15,20 @@ class monitorController extends Controller
         $courses = Course::All();
 
         return view('monitor.monitorEdit', ['courses' => $courses]);
+    }
+
+    function update()
+    {
+        request()->validate([
+            'courseSelect' => ['required'],
+            'grade' => ['required', 'min:1', 'max:4'],
+        ]);
+
+        $assignment = Assignment::find(request('courseSelect'));
+        $assignment->grade = request('grade');
+
+        $assignment->save();
+
+        return redirect('/../dashboard/monitor');
     }
 }

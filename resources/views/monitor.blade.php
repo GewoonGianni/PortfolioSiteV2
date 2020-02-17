@@ -55,7 +55,7 @@
             </div>
         </div>
         <div class="progress mb-4">
-            <div class="progress-bar bg-warning" role="progressbar" style="width: 60%" aria-valuenow="30"
+            <div class="progress-bar bg-danger" role="progressbar" style="width: 60%" aria-valuenow="30"
                  aria-valuemin="0" aria-valuemax="45"> 66%
 
             </div>
