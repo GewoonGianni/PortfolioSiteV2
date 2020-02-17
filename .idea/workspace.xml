@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6375d0c8-37fa-4010-84e0-dbe59ce88b85" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/monitorController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/monitorController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/pageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/pageController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/monitor.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/monitor.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/monitor/monitorEdit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/monitor/monitorEdit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_02_06_101415_articles.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_02_06_101415_articles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/AssignmentsTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/AssignmentsTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +181,7 @@
       <workItem from="1581677841449" duration="804000" />
       <workItem from="1581887795200" duration="490000" />
       <workItem from="1581922041685" duration="3472000" />
-      <workItem from="1581927415509" duration="2250000" />
+      <workItem from="1581927415509" duration="4201000" />
     </task>
     <servers />
   </component>

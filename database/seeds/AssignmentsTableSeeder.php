@@ -33,20 +33,14 @@ class AssignmentsTableSeeder extends Seeder
 
             [
                 'course_id' => 4,
-                'assignment' => 'Presentatie',
-                'weight' => 33,
+                'assignment' => 'Nederlands toets',
+                'weight' => 50,
             ],
 
             [
                 'course_id' => 4,
                 'assignment' => 'Verslag',
-                'weight' => 33,
-            ],
-
-            [
-                'course_id' => 4,
-                'assignment' => 'Functioneringsgesprek',
-                'weight' => 33,
+                'weight' => 50,
             ],
 
             [
