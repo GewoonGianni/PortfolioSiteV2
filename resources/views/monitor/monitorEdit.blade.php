@@ -23,9 +23,12 @@
                         @endforeach
                     @endforeach
                 </select>
+                @error('grade')
+                <span class="text-danger">{{$errors->first('courseSelect')}}</span>
+                @enderror
 
                 <label class="label" for="grade">Cijfer</label>
-                <input placeholder="Cijfer" class="form-control @error('grade') is-invalid @enderror" id="grade" type="number" name="grade" value="{{old('grade')}}">
+                <input placeholder="Cijfer" class="form-control @error('grade') is-invalid @enderror" id="grade" type="number" step="0.1" name="grade" value="{{old('grade')}}">
 
                 @error('grade')
                 <span class="text-danger">{{$errors->first('grade')}}</span>

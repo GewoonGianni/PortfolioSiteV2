@@ -36,7 +36,7 @@ class CourseTableSeeder extends Seeder
             ],
             [
                 'course' => 'Object-oriented programming',
-                'EC' => 5,
+                'EC' => 10,
             ],
             [
                 'course' => 'Professional skills 2',

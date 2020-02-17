@@ -19,12 +19,25 @@ class pageController extends Controller
         $courses = \DB::table('courses');
         $courses = Course::All();
 
-        $assignments = \DB::table('assignments');
-        $assignments = Assignment::All();
+        $total = 0;
+
+        foreach ($courses as $course) {
+            $checker = true;
+            foreach ($course->assignments as $assignment) {
+                if ($assignment->completion !== 1) {
+                    $checker = 0;
+                }
+            }
+            if($checker == true) {
+                $total += $course->ec;
+            }
+        }
+
+
 
         return view('monitor', [
             'courses' => $courses,
-            'assignments' => $assignments,
+            'total' => $total,
         ]);
     }
 

@@ -48,19 +48,19 @@
             <button class="btn btn-outline-dark mb-4">Edit</button>
         </a>
 
-        <!-- TODO: Make dynamic progress bars -->
+        <h4>Behaalde EC</h4>
         <div class="progress mb-4">
-            <div class="progress-bar bg-success" role="progressbar" style="width: 50%;" aria-valuenow="30"
-                 aria-valuemin="0" aria-valuemax="60">50%
+            <div class="progress-bar bg-success" role="progressbar" style="width: {{$total / 60 * 100}}%;" aria-valuenow="{{$total}}"
+                 aria-valuemin="0" aria-valuemax="60">{{number_format($total / 60 * 100, 1 , "." ,",")}}%
             </div>
         </div>
+
+        <h4>NBSA grens</h4>
         <div class="progress mb-4">
-            <div class="progress-bar bg-danger" role="progressbar" style="width: 60%" aria-valuenow="30"
-                 aria-valuemin="0" aria-valuemax="45"> 66%
+            <div class="progress-bar bg-danger" role="progressbar" style="width: {{$total / 45 * 100}}%" aria-valuenow="{{$total}}"
+                 aria-valuemin="0" aria-valuemax="45"> {{number_format($total / 45 * 100, 1 , "." ,",")}}%
 
             </div>
         </div>
     </div>
-    <!-- TODO: make a "admin" edit screen -->
-    <!-- TODO: make a dynamic selection form -->
 @endsection
